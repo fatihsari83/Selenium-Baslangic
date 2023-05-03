@@ -26,7 +26,11 @@ public class C03_WebElemetMethodlari {
         System.out.println(aramaKutusuElementi.getText());
 
 
-        System.out.println(aramaKutusuElementi.getSize());
+        System.out.println(aramaKutusuElementi.getSize());// (789, 38)
+
+        System.out.println(aramaKutusuElementi.getLocation());// (279, 10)
+
+        System.out.println(aramaKutusuElementi.getRect().getDimension());// (789, 38)
 
 
         Thread.sleep(3000);
