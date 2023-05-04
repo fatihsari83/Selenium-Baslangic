@@ -48,5 +48,6 @@ public class C04_AutomationExercise {
         //6- Sayfayi kapatin
         Thread.sleep(3000);
         driver.close();
+
     }
 }
